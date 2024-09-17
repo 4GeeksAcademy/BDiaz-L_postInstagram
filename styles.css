@@ -1,0 +1,41 @@
+* {
+    border: 1px dotted red;
+}
+body {
+    display: flex;
+    justify-content: center;
+    background-color: grey;
+    font-family: ;
+}
+p {
+    margin: 0;
+}
+.post {
+    width: 400px;
+    margin-top: 5%;
+    background: white;
+    padding: 5px;
+}
+.post-header {
+    display: flex;
+    align-items: center;
+}
+.post-header div{
+    width: 80%;
+}
+
+.post-header svg {
+    height: 30px;
+    width: 10%;
+}
+
+.post-img img {
+    max-width: 100%;
+}
+.post-icons svg {
+    height: 30px;
+    width: 10%
+}
+.small-letter {
+    font-size: 0.8rem;
+}
